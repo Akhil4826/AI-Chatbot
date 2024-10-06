@@ -141,7 +141,7 @@ Before installing, ensure you have:
 
 
 
-Web-Based BOt
+Web-Based Bot
 
 ![image](https://github.com/user-attachments/assets/3dd19cdf-2866-4f55-9344-60af7e83fc72)
 
