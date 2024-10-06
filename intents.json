@@ -1,0 +1,455 @@
+{
+  
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi!", "Hello!", "Hey!", "Hi there!"],
+        "responses": ["Hi! I am EduQuest, your Personal chatbot, What can I help you with?"],
+        "context_set": ""
+      },
+      {
+        "intent": "Greet",
+        "examples": [
+          "Hi!",
+          "Hello!",
+          "Hey!",
+          "Good morning!",
+          "Good evening!"
+        ],
+        "responses": [
+          "Hi! I am EduQuest, your personal chatbot. What can I help you with today?"
+        ]
+      },
+      {
+        "intent": "Subjects",
+        "examples": [
+          "What subjects can I study?",
+          "Tell me about the subjects available.",
+          "What topics are covered?",
+          "What can I learn here?",
+          "Show me the subjects."
+        ],
+        "responses": [
+          "Our website offers various subjects including JEE-Main, JEE-Advanced, GATE, Data Structures, Algorithms, and many more. You can also access notes, sample papers, and online video lectures."
+        ]
+      },
+      {
+        "intent": "WebsiteInfo",
+        "examples": [
+          "Tell me about this website.",
+          "What is this website about?",
+          "Give me information about your website.",
+          "What features does your website have?",
+          "What can I do here?"
+        ],
+        "responses": [
+          "Our Educational Website provides notes, sample papers, online video lectures, and courses for competitive exams like JEE-Main, JEE-Advanced, and GATE. You can also clear doubts, take quizzes, and find interview questions for placements. The website is responsive and accessible from any device."
+        ]
+      },
+      {
+        "intent": "DoubtClearance",
+        "examples": [
+          "How can I clear my doubts?",
+          "I have a question. How can I ask it?",
+          "Can I get help with my doubts?",
+          "How do I submit my doubts?",
+          "Help me with my questions."
+        ],
+        "responses": [
+          "You can clear your doubts by sending your questions directly through our website. Our team will assist you with your queries."
+        ]
+      },
+      {
+        "intent": "QuizSection",
+        "examples": [
+          "Tell me about the quizzes.",
+          "What quizzes are available?",
+          "Can I take a quiz?",
+          "Show me the quizzes.",
+          "What topics do the quizzes cover?"
+        ],
+        "responses": [
+          "We have a Quiz Section with various questions on different topics. You can solve problems, view your scores, and get solutions for each question."
+        ]
+      },
+      {
+        "intent": "Projects",
+        "examples": [
+          "What projects are available?",
+          "Tell me about the projects.",
+          "Can you show me the projects?",
+          "Where can I find projects?",
+          "Show me the project details."
+        ],
+        "responses": [
+          "Here are some projects available on our website:\n1. **Digi Library**: Interactive Library Management Software (Java & MySQL)\n2. **Edquest**: Educational Website (HTML, CSS & JavaScript)\n3. **Photo Gallery**: Manage Personal Photos (HTML, CSS & JavaScript)\n4. **Sports Fitness**: Favorite Sports Management (HTML, CSS & JavaScript)\n5. **Smart TMS**: Traffic Management System (C++)"
+        ]
+      },
+      {
+        "intent": "CourseVideos",
+        "examples": [
+          "Show me the course videos.",
+          "What video lectures are available?",
+          "Can I watch video lectures?",
+          "Tell me about the video tutorials.",
+          "Show me the video links."
+        ],
+        "responses": [
+          "Here are some of the course videos available:\n- **Java Lectures**: [Watch Here](https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E)\n- **C++ Lectures**: [Watch Here](https://www.youtube.com/watch?v=Iuo9PpGE04Y&feature=youtu.be)\n- **Python Lectures**: [Watch Here](https://youtu.be/QXeEoD0pB3E)\n- **Data Structures**: [Watch Here](https://www.youtube.com/watch?v=Db9ZYbJONHc)\n- **Algorithm**: [Watch Here](https://www.youtube.com/watch?v=0IAPZzGSbME)\n- **HTML and CSS**: [Watch Here](https://www.youtube.com/watch?v=TKYsuU86-DQ)\n- **JavaScript**: [Watch Here](https://www.youtube.com/watch?v=uDwSnnhl1Ng)"
+        ]
+      },
+      {
+        "intent": "AdditionalResources",
+        "examples": [
+          "What additional resources do you have?",
+          "Tell me about extra resources.",
+          "What other materials are available?",
+          "Show me the additional resources.",
+          "Give me information on extra resources."
+        ],
+        "responses": [
+          "We offer additional resources such as sample papers for JEE-Mains & Advanced, video lectures on various topics like Database, Computer Networks, and Engineering Mathematics, and links to educational content on different subjects. You can find these resources on our website."
+        ]
+      },
+      {
+        "intent": "QuickLinks",
+        "examples": [
+          "What are the quick links?",
+          "Give me the important links.",
+          "Show me the quick resources.",
+          "Tell me about the quick links.",
+          "What links should I check out?"
+        ],
+        "responses": [
+          "Here are some quick links:\n- [Projectile](https://en.wikipedia.org/wiki/Projectile)\n- [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)\n- [Light](https://en.wikipedia.org/wiki/Light)\n- [Maxwell Equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations)\n- [LASER](https://en.wikipedia.org/wiki/Laser)\n- [Gravitation](https://en.wikipedia.org/wiki/Gravity)\n- [Inertia](https://en.wikipedia.org/wiki/Inertia)\n- [Current](https://en.wikipedia.org/wiki/Current)\n- [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)\n- [Chemical Process](https://en.wikipedia.org/wiki/Chemical_process)\n- [Periodic Table](https://en.wikipedia.org/wiki/Periodic_table)\n- [Equilibrium](https://en.wikipedia.org/wiki/Equilibrium)"
+        ]
+      },
+      {
+        "tag": "subjects_to_study",
+        "patterns": ["Subjects to Study", "What subjects can I study?", "Available subjects"],
+        "responses": [
+          "We offer various subjects for study including Notes, Sample Papers, Online Video Lectures and courses to crack competitive exams like JEE-Main, JEE-Advanced, GATE, etc."
+        ]
+      },
+      {
+        "tag": "about_website",
+        "patterns": ["About this website", "Tell me about this website", "What is this website about?"],
+        "responses": [
+          "Our Educational Website provides education-related resources such as Notes, Sample Papers, Online Video Lectures, and courses for competitive exams like JEE-Main, JEE-Advanced, GATE, etc. We also have Quizzes, Interview questions, and Projects for students."
+        ]
+      },
+      {
+        "tag": "doubt_clearance",
+        "patterns": ["Doubt Clearances", "I have a doubt", "Clear my doubts"],
+        "responses": [
+          "Students can clear their doubts by sending their questions to our website. We will provide the necessary help to clear your doubts."
+        ]
+      },
+      {
+        "tag": "quiz_section",
+        "patterns": ["Quiz Section", "I want to solve quizzes", "Quizzes"],
+        "responses": [
+          "Quiz Section is an interesting feature for students which provides them with lots of questions. They can view their scores easily and solutions to every question."
+        ]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["Projects", "I need a project", "Final year projects", "Class 12th projects"],
+        "responses": [
+          "We have added a project section where students from schools and colleges can get projects for the final year and Class 12th Board Projects. It is completely responsive to provide a smooth experience."
+        ]
+      },
+      {
+        "tag": "courses_and_links",
+        "patterns": ["Courses", "Available courses", "List of courses"],
+        "responses": [
+          "We offer various courses including:\n1. **Java** - [Watch Here](https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E)\n2. **Android Development** - [Link](https://developer.android.com/)\n3. **FXML** - [Link](https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm)\n4. **C++** - [Watch Here](https://www.youtube.com/watch?v=Iuo9PpGE04Y&feature=youtu.be)\n5. **Compiler Designing** - [Link](https://en.wikipedia.org/wiki/Compiler_Construction)\n6. **Data Structures** - [Watch Here](https://www.youtube.com/watch?v=Db9ZYbJONHc)\n7. **Algorithm** - [Watch Here](https://www.youtube.com/watch?v=0IAPZzGSbME)\n8. **Database** - [Link](https://www.mysql.com/)\n9. **Computer Networks** - [Link](https://en.wikipedia.org/wiki/Computer_network)\n10. **Engineering Mathematics** - [Link](https://en.wikipedia.org/wiki/Engineering_mathematics)"
+        ]
+      },
+      {
+        "tag": "lecture_videos",
+        "patterns": ["Video lectures", "Lecture videos", "Watch lectures", "Available videos"],
+        "responses": [
+          "We provide various lecture videos on our website. Here are some links to get started:\n- **Java Lectures**: [Watch Here](https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E)\n- **C++ Lectures**: [Watch Here](https://www.youtube.com/watch?v=Iuo9PpGE04Y&feature=youtu.be)\n- **Python Lectures**: [Watch Here](https://youtu.be/QXeEoD0pB3E)\n- **Data Structures**: [Watch Here](https://www.youtube.com/watch?v=Db9ZYbJONHc)\n- **Algorithm**: [Watch Here](https://www.youtube.com/watch?v=0IAPZzGSbME)\n- **HTML and CSS**: [Watch Here](https://www.youtube.com/watch?v=TKYsuU86-DQ)\n- **JavaScript**: [Watch Here](https://www.youtube.com/watch?v=uDwSnnhl1Ng)"
+        ]
+      },
+      {
+        "tag": "resources",
+        "patterns": ["Additional resources", "Extra resources", "Learning materials"],
+        "responses": [
+          "We offer various additional resources like sample papers, video lectures, and educational content on different subjects. You can find these resources on our website."
+        ]
+      },
+ 
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good evening"],
+            "responses": ["Hello!", "Hi there!", "Greetings!", "How can I assist you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "See you", "Have a good day"],
+            "responses": ["Goodbye!", "See you later!", "Have a great day!", "Take care!"],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"],
+            "context_set": ""
+        },
+        {
+            "tag": "no_answer",
+            "patterns": [],
+            "responses": ["Sorry, I don't understand.", "Can you rephrase that?", "I'm not sure about that."],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+            "responses": ["I am a chatbot created to assist you.", "You can call me Chatbot.", "I'm your virtual assistant."],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What is your age?", "When were you born?"],
+            "responses": ["I am timeless.", "Age is just a number for me!", "I exist outside of time."],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where are you?", "Where do you live?", "Your location?"],
+            "responses": ["I am in the cloud.", "I exist in the digital world.", "I'm everywhere and nowhere."],
+            "context_set": ""
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact support?", "Customer service contact?", "Support email?"],
+            "responses": ["You can contact our support at support@example.com.", "Reach out to support@example.com for assistance."],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your hours?", "When are you open?", "Operating hours?"],
+            "responses": ["Our support is available 24/7.", "We operate around the clock, every day."],
+            "context_set": ""
+        },
+        {
+            "tag": "products",
+            "patterns": ["What products do you offer?", "Tell me about your products", "Product list"],
+            "responses": ["We offer a wide range of products including X, Y, and Z.", "Check our website for the full product list."],
+            "context_set": ""
+        },
+        {
+            "tag": "services",
+            "patterns": ["What services do you provide?", "Services list", "Tell me about your services"],
+            "responses": ["We provide various services such as A, B, and C.", "Our services include A, B, and C. More details are available on our website."],
+            "context_set": ""
+        },
+        {
+            "tag": "pricing",
+            "patterns": ["What are your prices?", "Pricing details", "How much does X cost?"],
+            "responses": ["Our pricing details are available on our website.", "You can find the pricing information for all products and services on our site."],
+            "context_set": ""
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["Do you offer delivery?", "Delivery options", "Shipping details"],
+            "responses": ["Yes, we offer delivery options. Check our website for more details.", "Delivery options and shipping details are available on our site."],
+            "context_set": ""
+        },
+        {
+            "tag": "payment",
+            "patterns": ["What payment methods do you accept?", "Payment options", "How can I pay?"],
+            "responses": ["We accept various payment methods including credit card, PayPal, and more.", "You can pay using credit card, PayPal, and other methods."],
+            "context_set": ""
+        },
+        {
+            "tag": "refund",
+            "patterns": ["How can I get a refund?", "Refund policy", "Request a refund"],
+            "responses": ["You can request a refund through our support team.", "Our refund policy is available on our website."],
+            "context_set": ""
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["What is the status of my order?", "Order status", "Track my order"],
+            "responses": ["You can track your order status on our website.", "Check the order status page for updates on your order."],
+            "context_set": ""
+        },
+        {
+            "tag": "technical_support",
+            "patterns": ["I need technical support", "Tech support", "Technical issues"],
+            "responses": ["Our technical support team can help you. Contact them at techsupport@example.com.", "Reach out to techsupport@example.com for technical assistance."],
+            "context_set": ""
+        },
+        {
+            "tag": "password_reset",
+            "patterns": ["I forgot my password", "Reset my password", "Password recovery"],
+            "responses": ["You can reset your password on the login page.", "Use the 'Forgot Password' option to reset your password."],
+            "context_set": ""
+        },
+        {
+            "tag": "account_closure",
+            "patterns": ["How can I close my account?", "Close my account", "Delete my account"],
+            "responses": ["Contact our support team to close your account.", "Send a request to support@example.com to delete your account."],
+            "context_set": ""
+        },
+        {
+            "tag": "account_creation",
+            "patterns": ["How do I create an account?", "Sign up", "Register an account"],
+            "responses": ["You can create an account by signing up on our website.", "Visit the sign-up page to register a new account."],
+            "context_set": ""
+        },
+        {
+            "tag": "order_cancel",
+            "patterns": ["How can I cancel my order?", "Cancel my order", "Order cancellation"],
+            "responses": ["You can cancel your order from your account page.", "Contact our support team for order cancellations."],
+            "context_set": ""
+        },
+        {
+            "tag": "update_order",
+            "patterns": ["How can I update my order?", "Update my order", "Change order details"],
+            "responses": ["You can update your order from your account page.", "Contact support to update your order details."],
+            "context_set": ""
+        },
+        {
+            "tag": "faq",
+            "patterns": ["Where can I find FAQs?", "Frequently asked questions", "Help"],
+            "responses": ["Our FAQs are available on the help section of our website.", "Visit the FAQ page for more information."],
+            "context_set": ""
+        },
+        {
+            "tag": "location_store",
+            "patterns": ["Where is your store located?", "Store location", "Find a store"],
+            "responses": ["Our store is located at XYZ street.", "You can find our store at the following address: XYZ street."],
+            "context_set": ""
+        },
+        {
+            "tag": "return_policy",
+            "patterns": ["What is your return policy?", "Return policy", "Returns"],
+            "responses": ["Our return policy is available on our website.", "Check the return policy page for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "exchange_policy",
+            "patterns": ["What is your exchange policy?", "Exchange policy", "Exchanges"],
+            "responses": ["Our exchange policy is available on our website.", "Check the exchange policy page for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "product_warranty",
+            "patterns": ["Is there a warranty on your products?", "Product warranty", "Warranty details"],
+            "responses": ["Our products come with a warranty. Check our website for warranty details.", "Warranty information is available on the product page."],
+            "context_set": ""
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": ["Do you have a loyalty program?", "Loyalty program", "Rewards program"],
+            "responses": ["Yes, we have a loyalty program. Join on our website for exclusive benefits.", "Our loyalty program details are available on our site."],
+            "context_set": ""
+        },
+        {
+            "tag": "gift_cards",
+            "patterns": ["Do you offer gift cards?", "Gift cards", "Buy gift cards"],
+            "responses": ["Yes, we offer gift cards. You can purchase them on our website.", "Gift cards are available on our site."],
+            "context_set": ""
+        },
+        {
+            "tag": "promotions",
+            "patterns": ["Any current promotions?", "Current deals", "Special offers"],
+            "responses": ["Check our website for current promotions and deals.", "Visit our promotions page for the latest offers."],
+            "context_set": ""
+        },
+        {
+            "tag": "newsletter",
+            "patterns": ["How can I subscribe to the newsletter?", "Newsletter sign-up", "Subscribe to newsletter"],
+            "responses": ["You can subscribe to our newsletter on our website.", "Sign up for our newsletter to stay updated."],
+            "context_set": ""
+        },
+        {
+            "tag": "privacy_policy",
+            "patterns": ["What is your privacy policy?", "Privacy policy", "How do you handle my data?"],
+            "responses": ["Our privacy policy is available on our website.", "Check our privacy policy page for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "terms_conditions",
+            "patterns": ["What are your terms and conditions?", "Terms and conditions", "T&C"],
+            "responses": ["Our terms and conditions are available on our website.", "Visit the terms and conditions page for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "about_us",
+            "patterns": ["Tell me about your company", "About us", "Who are you?"],
+            "responses": ["We are a company dedicated to providing the best products and services. Learn more on our website.", "Visit the 'About Us' page to learn more about our company."],
+            "context_set": ""
+        },
+        {
+            "tag": "careers",
+            "patterns": ["Are you hiring?", "Job openings", "Careers"],
+            "responses": ["Check our careers page for current job openings.", "Visit the careers section on our website for job opportunities."],
+            "context_set": ""
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["How can I provide feedback?", "Give feedback", "Feedback"],
+            "responses": ["We appreciate your feedback. Please provide it on our feedback page.", "Visit the feedback section on our website to share your thoughts."],
+            "context_set": ""
+        },
+        {
+            "tag": "partnerships",
+            "patterns": ["Do you have partnership opportunities?", "Partner with us", "Partnerships"],
+            "responses": ["We welcome partnership opportunities. Contact us at partnerships@example.com.", "Visit our partnerships page for more information."],
+            "context_set": ""
+        },
+        {
+            "tag": "press_inquiries",
+            "patterns": ["How can I contact your press team?", "Press inquiries", "Media contact"],
+            "responses": ["For press inquiries, contact us at press@example.com.", "Visit our press page for more information."],
+            "context_set": ""
+        },
+        {
+            "tag": "social_media",
+            "patterns": ["What are your social media channels?", "Social media", "Follow you on social media"],
+            "responses": ["Follow us on social media. Our handles are available on our website.", "Check our social media links on our homepage."],
+            "context_set": ""
+        },
+        {
+            "tag": "event_info",
+            "patterns": ["What events are you hosting?", "Upcoming events", "Event information"],
+            "responses": ["Check our events page for information on upcoming events.", "Visit our website for details on upcoming events."],
+            "context_set": ""
+        },
+        {
+            "tag": "blog",
+            "patterns": ["Do you have a blog?", "Blog posts", "Latest blog"],
+            "responses": ["Yes, we have a blog. Check our latest posts on our website.", "Visit our blog for the latest articles and updates."],
+            "context_set": ""
+        },
+        {
+            "tag": "sustainability",
+            "patterns": ["What are your sustainability practices?", "Sustainability efforts", "Eco-friendly practices"],
+            "responses": ["We are committed to sustainability. Learn more about our efforts on our website.", "Check our sustainability page for more information."],
+            "context_set": ""
+        },
+        {
+            "tag": "mission",
+            "patterns": ["What is your mission?", "Company mission", "Mission statement"],
+            "responses": ["Our mission is to provide quality products and services. Learn more on our website.", "Visit our 'Mission' page to understand our goals and values."],
+            "context_set": ""
+        },
+        {
+            "tag": "values",
+            "patterns": ["What are your company values?", "Company values", "Values"],
+            "responses": ["Our values include A, B, and C. Learn more on our website.", "Check our 'Values' page for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "corporate_responsibility",
+            "patterns": ["What is your corporate responsibility policy?", "Corporate responsibility", "CSR policy"],
+            "responses": ["We are dedicated to corporate responsibility. Learn more about our policies on our website.", "Visit our CSR page for more information."],
+            "context_set": ""
+        }
+    ]
+}
