@@ -24,8 +24,8 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
 
 # Google Search API credentials
-API_KEY = 'AIzaSyBHDVJGb5HyqKHOZN1o-i1bMOHcvD8tjzA'
-CX = '96aeb9f902afd45aa'
+API_KEY = 'Your Api Key'
+CX = 'Your CX'
 
 # Initialize Google API client
 service = googleapiclient.discovery.build('customsearch', 'v1', developerKey=API_KEY)
