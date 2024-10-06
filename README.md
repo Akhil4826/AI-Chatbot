@@ -1,5 +1,16 @@
 # Chatbot Application
 
+## SnapShot
+
+![image](https://github.com/user-attachments/assets/5e6e31b2-2697-4ebb-b827-35d2640e337a)
+
+WebBased BOT
+
+![image](https://github.com/user-attachments/assets/3dd19cdf-2866-4f55-9344-60af7e83fc72)
+
+
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Problem Definition](#problem-definition)
