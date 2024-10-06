@@ -1,16 +1,5 @@
 # Chatbot Application
 
-## SnapShot
-
-![image](https://github.com/user-attachments/assets/5e6e31b2-2697-4ebb-b827-35d2640e337a)
-
-WebBased BOT
-
-![image](https://github.com/user-attachments/assets/3dd19cdf-2866-4f55-9344-60af7e83fc72)
-
-
-
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Problem Definition](#problem-definition)
@@ -26,6 +15,10 @@ WebBased BOT
 12. [Conclusion](#conclusion)
 
 ---
+
+## SnapShot
+
+![image](https://github.com/user-attachments/assets/5e6e31b2-2697-4ebb-b827-35d2640e337a)
 
 ## 1. Introduction <a name="introduction"></a>
 The **Chatbot Application** is designed to automate user interactions and provide real-time conversational responses. By using natural language processing (NLP) techniques, the chatbot can assist users with inquiries, support services, or educational assistance, making it a versatile tool across various domains.
@@ -136,17 +129,24 @@ Before installing, ensure you have:
     ```bash
     cd chatbot-application
     ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
+
     ```
-4. Start the Flask server:
+3. Start the Application:
     ```bash
-    python app.py
+    python chatbot.py
     ```
-5. Open your browser and navigate to `http://localhost:5000` to interact with the chatbot.
+4. Open your browser and navigate to `http://localhost:5000` to interact with the chatbot.
 
 ---
+
+
+
+Web-Based BOt
+
+![image](https://github.com/user-attachments/assets/3dd19cdf-2866-4f55-9344-60af7e83fc72)
+
+
+
 
 ## 11. Future Scope <a name="future-scope"></a>
 There are several enhancements planned for the chatbot in the future:
@@ -159,4 +159,6 @@ There are several enhancements planned for the chatbot in the future:
 
 ## 12. Conclusion <a name="conclusion"></a>
 The **Chatbot Application** offers a scalable, flexible, and intelligent solution for automating user interactions. By leveraging NLP and machine learning techniques, it can provide real-time assistance, support multiple use cases, and significantly reduce operational costs. As it evolves, the chatbot will integrate more advanced features like voice-based interaction, multi-language support, and adaptive learning to further enhance its capabilities.
+
+
 
